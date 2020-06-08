@@ -458,3 +458,69 @@ header #header-right #menu.list-none {
   list-style-type: none;
 }
 
+/************************* FINE-HEADER *****************************/
+
+#jumbotron {
+  padding: 100px 0;
+}
+
+#jumbotron .container {
+  height: 450px;
+  width: 70%;
+  margin: auto;
+}
+
+#jumbotron .container.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+#jumbotron .container #jumbotron-left {
+  height: 100%;
+  width: 50%;
+  float: left;
+  padding-right: 30px;
+}
+
+#jumbotron .container #jumbotron-left h1 {
+  font-size: 45px;
+  margin-top: 0;
+  line-height: 65px;
+}
+
+#jumbotron .container #jumbotron-left p {
+  font-size: 20px;
+}
+
+#jumbotron .container #jumbotron-left #buttons {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#jumbotron .container #jumbotron-left #buttons button {
+  padding: 10px 20px;
+  font-size: 13px;
+  color: white;
+  background-color: #30488f;
+  border: 1px solid #30488f;
+  border-radius: 10px;
+}
+
+#jumbotron .container #jumbotron-left #buttons button:hover {
+  background-color: #233569;
+  border: 1px solid #233569;
+}
+
+#jumbotron .container #jumbotron-right {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+#jumbotron .container #jumbotron-right img {
+  width: 100%;
+}
+
+/***************FINE JUMBOTRON*****************/
+

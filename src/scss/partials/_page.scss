@@ -1,0 +1,61 @@
+#jumbotron {
+    padding: 100px 0;
+
+    .container {
+        height: 450px;
+        width: 70%;
+        margin: auto;
+
+        &.clearfix {
+            @include clearfix;
+        }
+
+        #jumbotron-left {
+            height: 100%;
+            width: 50%;
+            float: left;
+            padding-right: 30px;
+
+            h1 {
+                font-size: 45px;
+                margin-top: 0;
+                line-height: 65px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            #buttons {
+                margin-top: 30px;
+                margin-bottom: 15px;
+
+                button {
+                    padding: 10px 20px;
+                    font-size: 13px;
+                    color: white;
+                    background-color: $colore_bottone;
+                    border: 1px solid $colore_bottone;
+                    border-radius: 10px;
+
+                    &:hover {
+                        background-color: $colore_bottone_hover;
+                        border: 1px solid $colore_bottone_hover;
+                    }
+                }
+            }
+        }
+
+        #jumbotron-right {
+            height: 100%;
+            width: 50%;
+            float: left;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+/***************FINE JUMBOTRON*****************/
