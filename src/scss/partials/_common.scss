@@ -12,3 +12,9 @@ body {
     text-decoration: none;
     color: black;
 }
+
+@mixin images {
+    width: 150px;
+    height: 100px;
+    margin-bottom: 20px;
+}
