@@ -1,0 +1,14 @@
+body {
+    font-family: $font_family;
+}
+
+@mixin clearfix {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+@mixin link {
+    text-decoration: none;
+    color: black;
+}

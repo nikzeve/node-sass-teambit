@@ -369,3 +369,92 @@ template {
   display: none;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*********************END---NORMALIZE***********************/
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 70px;
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px solid #bdb5af;
+}
+
+header.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+header #header-left {
+  height: 100%;
+  width: 15%;
+  float: left;
+  padding: 20px 0;
+}
+
+header #header-left p {
+  font-size: 20px;
+  margin: 0;
+}
+
+header #header-left i {
+  font-size: 30px;
+  margin-right: 8px;
+}
+
+header #header-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+  padding: 15px 0;
+}
+
+header #header-right #menu {
+  float: right;
+  margin: 0;
+}
+
+header #header-right #menu li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+header #header-right #menu li a {
+  font-size: 14px;
+}
+
+header #header-right #menu li a.link {
+  text-decoration: none;
+  color: black;
+}
+
+header #header-right #menu li a:hover {
+  color: #263972;
+}
+
+header #header-right #menu li #sign-up {
+  padding: 10px 20px;
+  border: 1px solid #30488f;
+  color: #30488f;
+  border-radius: 10px;
+  background-color: white;
+}
+
+header #header-right #menu li #sign-up:hover {
+  background-color: #30488f;
+  color: white;
+}
+
+header #header-right #menu.list-none {
+  list-style-type: none;
+}
+
