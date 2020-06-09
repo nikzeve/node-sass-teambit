@@ -684,3 +684,55 @@ header #header-right #menu.list-none {
 
 /******************************FINE IMAGES*****************************/
 
+#feedback {
+  padding: 80px 0;
+}
+
+#feedback #container-feedback {
+  width: 100%;
+}
+
+#feedback #container-feedback.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+#feedback #container-feedback #feedback-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+#feedback #container-feedback #feedback-left img {
+  width: 100%;
+}
+
+#feedback #container-feedback #feedback-right {
+  width: 25%;
+  height: 100%;
+  float: left;
+  padding: 10px;
+}
+
+#feedback #container-feedback #feedback-right h2 {
+  margin-bottom: 30px;
+}
+
+#feedback #container-feedback #feedback-right p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+#feedback #container-feedback #feedback-right a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 20px;
+}
+
+#feedback #container-feedback #feedback-right img {
+  width: 270px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
