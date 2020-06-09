@@ -1,0 +1,23 @@
+footer {
+    #footer-container {
+        height: 400px;
+        width: 70%;
+        margin: auto;
+
+        &.clearfix {
+            @include clearfix;
+        }
+
+        #footer-left {
+            width: 30%;
+            height: 100%;
+            float: left;
+        }
+
+        #footer-right {
+            width: 70%;
+            height: 100%;
+            float: left;
+        }
+    }
+}

@@ -791,3 +791,29 @@ header #header-right #menu.list-none {
   width: 100%;
 }
 
+/************************************FINE SURVEY****************************/
+
+footer #footer-container {
+  height: 400px;
+  width: 70%;
+  margin: auto;
+}
+
+footer #footer-container.clearfix {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+footer #footer-container #footer-left {
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+
+footer #footer-container #footer-right {
+  width: 70%;
+  height: 100%;
+  float: left;
+}
+
